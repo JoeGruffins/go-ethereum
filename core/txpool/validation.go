@@ -21,14 +21,14 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus/misc/eip4844"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto/kzg4844"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/joegruffins/go-ethereum/common"
+	"github.com/joegruffins/go-ethereum/consensus/misc/eip4844"
+	"github.com/joegruffins/go-ethereum/core"
+	"github.com/joegruffins/go-ethereum/core/state"
+	"github.com/joegruffins/go-ethereum/core/types"
+	"github.com/joegruffins/go-ethereum/crypto/kzg4844"
+	"github.com/joegruffins/go-ethereum/log"
+	"github.com/joegruffins/go-ethereum/params"
 )
 
 var (

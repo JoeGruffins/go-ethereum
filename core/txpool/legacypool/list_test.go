@@ -21,9 +21,9 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto"
+	"github.com/joegruffins/go-ethereum/common"
+	"github.com/joegruffins/go-ethereum/core/types"
+	"github.com/joegruffins/go-ethereum/crypto"
 	"github.com/holiman/uint256"
 )
 

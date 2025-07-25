@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/eth/ethconfig"
+	"github.com/joegruffins/go-ethereum/core/rawdb"
+	"github.com/joegruffins/go-ethereum/eth/ethconfig"
 	flag "github.com/spf13/pflag"
 )
 

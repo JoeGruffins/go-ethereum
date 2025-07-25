@@ -22,13 +22,13 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/prque"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/metrics"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/joegruffins/go-ethereum/common"
+	"github.com/joegruffins/go-ethereum/common/prque"
+	"github.com/joegruffins/go-ethereum/core/types"
+	"github.com/joegruffins/go-ethereum/ethdb"
+	"github.com/joegruffins/go-ethereum/log"
+	"github.com/joegruffins/go-ethereum/metrics"
+	"github.com/joegruffins/go-ethereum/rlp"
 )
 
 var (

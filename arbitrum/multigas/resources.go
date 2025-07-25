@@ -1,6 +1,6 @@
 package multigas
 
-import "github.com/ethereum/go-ethereum/common/math"
+import "github.com/joegruffins/go-ethereum/common/math"
 
 // ResourceKind represents a dimension for the multi-dimensional gas.
 type ResourceKind uint8

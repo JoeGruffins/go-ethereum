@@ -25,12 +25,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/accounts/abi/bind"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/crypto/kzg4844"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/joegruffins/go-ethereum/accounts/abi/bind"
+	"github.com/joegruffins/go-ethereum/common"
+	"github.com/joegruffins/go-ethereum/core/types"
+	"github.com/joegruffins/go-ethereum/crypto"
+	"github.com/joegruffins/go-ethereum/crypto/kzg4844"
+	"github.com/joegruffins/go-ethereum/params"
 	"github.com/holiman/uint256"
 	"go.uber.org/goleak"
 )

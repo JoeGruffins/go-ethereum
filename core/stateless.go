@@ -17,18 +17,18 @@
 package core
 
 import (
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/lru"
-	"github.com/ethereum/go-ethereum/consensus/beacon"
-	"github.com/ethereum/go-ethereum/consensus/ethash"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/stateless"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/trie"
-	"github.com/ethereum/go-ethereum/triedb"
+	"github.com/joegruffins/go-ethereum/common"
+	"github.com/joegruffins/go-ethereum/common/lru"
+	"github.com/joegruffins/go-ethereum/consensus/beacon"
+	"github.com/joegruffins/go-ethereum/consensus/ethash"
+	"github.com/joegruffins/go-ethereum/core/state"
+	"github.com/joegruffins/go-ethereum/core/stateless"
+	"github.com/joegruffins/go-ethereum/core/types"
+	"github.com/joegruffins/go-ethereum/core/vm"
+	"github.com/joegruffins/go-ethereum/log"
+	"github.com/joegruffins/go-ethereum/params"
+	"github.com/joegruffins/go-ethereum/trie"
+	"github.com/joegruffins/go-ethereum/triedb"
 )
 
 // ExecuteStateless runs a stateless execution based on a witness, verifies

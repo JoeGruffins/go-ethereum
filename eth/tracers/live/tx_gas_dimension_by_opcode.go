@@ -7,15 +7,15 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/ethereum/go-ethereum/core/tracing"
-	"github.com/ethereum/go-ethereum/eth/tracers"
-	"github.com/ethereum/go-ethereum/eth/tracers/native"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/joegruffins/go-ethereum/core/tracing"
+	"github.com/joegruffins/go-ethereum/eth/tracers"
+	"github.com/joegruffins/go-ethereum/eth/tracers/native"
+	"github.com/joegruffins/go-ethereum/params"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
-	_vm "github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/joegruffins/go-ethereum/common"
+	"github.com/joegruffins/go-ethereum/core/types"
+	_vm "github.com/joegruffins/go-ethereum/core/vm"
+	"github.com/joegruffins/go-ethereum/log"
 )
 
 // initializer for the tracer

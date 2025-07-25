@@ -29,8 +29,8 @@ import (
 	"text/template"
 	"unicode"
 
-	"github.com/ethereum/go-ethereum/accounts/abi"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/joegruffins/go-ethereum/accounts/abi"
+	"github.com/joegruffins/go-ethereum/log"
 )
 
 func isKeyWord(arg string) bool {

@@ -4,10 +4,10 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/ethereum/go-ethereum/core/tracing"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/eth/tracers"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/joegruffins/go-ethereum/core/tracing"
+	"github.com/joegruffins/go-ethereum/core/vm"
+	"github.com/joegruffins/go-ethereum/eth/tracers"
+	"github.com/joegruffins/go-ethereum/params"
 )
 
 // initializer for the tracer

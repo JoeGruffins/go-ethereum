@@ -19,17 +19,17 @@ package state
 import (
 	"errors"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/lru"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/rlp"
-	"github.com/ethereum/go-ethereum/trie"
-	"github.com/ethereum/go-ethereum/trie/utils"
-	"github.com/ethereum/go-ethereum/triedb"
-	"github.com/ethereum/go-ethereum/triedb/database"
+	"github.com/joegruffins/go-ethereum/common"
+	"github.com/joegruffins/go-ethereum/common/lru"
+	"github.com/joegruffins/go-ethereum/core/rawdb"
+	"github.com/joegruffins/go-ethereum/core/types"
+	"github.com/joegruffins/go-ethereum/crypto"
+	"github.com/joegruffins/go-ethereum/ethdb"
+	"github.com/joegruffins/go-ethereum/rlp"
+	"github.com/joegruffins/go-ethereum/trie"
+	"github.com/joegruffins/go-ethereum/trie/utils"
+	"github.com/joegruffins/go-ethereum/triedb"
+	"github.com/joegruffins/go-ethereum/triedb/database"
 )
 
 // ContractCodeReader defines the interface for accessing contract code.

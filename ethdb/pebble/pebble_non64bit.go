@@ -5,7 +5,7 @@ package pebble
 import (
 	"errors"
 
-	"github.com/ethereum/go-ethereum/ethdb"
+	"github.com/joegruffins/go-ethereum/ethdb"
 )
 
 func New(file string, cache int, handles int, namespace string, readonly bool, ephemeral bool, extraOptions *ExtraOptions) (ethdb.Database, error) {

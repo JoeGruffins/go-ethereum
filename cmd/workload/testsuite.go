@@ -23,12 +23,12 @@ import (
 	"os"
 	"slices"
 
-	"github.com/ethereum/go-ethereum/core/history"
-	"github.com/ethereum/go-ethereum/internal/flags"
-	"github.com/ethereum/go-ethereum/internal/utesting"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/joegruffins/go-ethereum/core/history"
+	"github.com/joegruffins/go-ethereum/internal/flags"
+	"github.com/joegruffins/go-ethereum/internal/utesting"
+	"github.com/joegruffins/go-ethereum/log"
+	"github.com/joegruffins/go-ethereum/params"
+	"github.com/joegruffins/go-ethereum/rpc"
 	"github.com/urfave/cli/v2"
 )
 

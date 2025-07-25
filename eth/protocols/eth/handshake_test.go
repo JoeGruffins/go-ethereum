@@ -21,10 +21,10 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/forkid"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/p2p/enode"
+	"github.com/joegruffins/go-ethereum/common"
+	"github.com/joegruffins/go-ethereum/core/forkid"
+	"github.com/joegruffins/go-ethereum/p2p"
+	"github.com/joegruffins/go-ethereum/p2p/enode"
 )
 
 // Tests that handshake failures are detected and reported correctly.
